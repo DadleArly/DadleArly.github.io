@@ -1,0 +1,321 @@
+<script>
+  window.onclick = function (event) {
+
+'use strict';
+var element = document.getElementById('gunshot').cloneNode(),
+  shotSound;
+document.body.appendChild(element);
+element.style.display = 'inline';
+element.style.left = event.clientX - (element.offsetWidth / 2) + 'px';
+element.style.top = event.clientY - (element.offsetHeight / 2) + 'px';
+
+shotSound = new Audio();
+shotSound.src = 'http://soundbible.com/mp3/9_mm_gunshot-mike-koenig-123.mp3';
+shotSound.play();
+};
+</script>
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" id="about"data-wow-duration="1.5s" style="padding-top: 150px;">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4"><u>About Us</u></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores doloremque quo perferendis, ut obcaecati harum, <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus iste,
+                        nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam voluptatum? <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.</p>
+                        <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores explicabo.</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!--  Roadmap Section  -->
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+        <h2 class="section-title"><u>Roadmap</u></h2>
+    </div>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+  
+    <!-- The Timeline -->
+    
+    <ul class="timeline " style="background-color: transparent;">
+    
+        <!-- Item 1 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Freelancer</span>
+                    <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                </div>
+                <div class="desc" style="color: white;">My current employment. Way better than the position before!</div>
+            </div>
+        </li>
+      
+        <!-- Item 2 -->
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Apple Inc.</span>
+                    <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                </div>
+                <div class="desc" style="color: white;">My first employer. All the stuff I've learned and projects I've been working on.</div>
+            </div>
+        </li>
+    
+        <!-- Item 3 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Harvard University</span>
+                    <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                </div>
+                <div class="desc" style="color: white;">A description of all the lectures and courses I have taken and my final degree?</div>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Apple Inc.</span>
+                    <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                </div>
+                <div class="desc" style="color: white;">My first employer. All the stuff I've learned and projects I've been working on.</div>
+            </div>
+        </li>
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Freelancer</span>
+                    <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                </div>
+                <div class="desc" style="color: white;">My current employment. Way better than the position before!</div>
+            </div>
+        </li>
+
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Apple Inc.</span>
+                    <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                </div>
+                <div class="desc" style="color: white;">My first employer. All the stuff I've learned and projects I've been working on.</div>
+            </div>
+        </li>
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Freelancer</span>
+                    <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                </div>
+                <div class="desc" style="color: white;">My current employment. Way better than the position before!</div>
+            </div>
+        </li>
+    </ul>
+    
+
+
+    <!-- book a table Section  -->
+    <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
+        <div class="">
+            <h2 class="section-title mb-5"><u>Features</u></h2>
+        <section style="background-color: transparent;">
+            <div class="container reveal fade-left active">
+                
+                <div class="text-container">
+                  <div class="text-box">
+                    <h3>Section Text</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>Section Text</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>Section Text</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                      eius molestiae perferendis eos provident vitae iste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+    </div>
+    
+    </div>
+
+  <style>
+ 
+
+  </style>
+    <div class="container py-5"  id="pricing">
+
+        <!-- FOR DEMO PURPOSE -->
+        <header class="text-center mb-5 text-white">
+          <div class="row">
+            <div class="col-lg-7 mx-auto">
+              <h1><u>Pricing</u></h1>
+            </div>
+          </div>
+        </header>
+        <!-- END -->
+    
+    
+    
+        <div class="row text-center align-items-end">
+          <!-- Pricing Table-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Basic</h1>
+              <h2 class="h1 font-weight-bold">$199<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left">
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum dolor sit amet</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> At vero eos et accusamus</li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Nam libero tempore</del>
+                </li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Sed ut perspiciatis</del>
+                </li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Sed ut perspiciatis</del>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+    
+          <!-- Pricing Table-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Pro</h1>
+              <h2 class="h1 font-weight-bold">$399<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum dolor sit amet</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> At vero eos et accusamus</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Nam libero tempore</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Sed ut perspiciatis</del>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+    
+          <!-- Pricing Table-->
+          <div class="col-lg-4">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
+              <h2 class="h1 font-weight-bold">$899<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum dolor sit amet</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> At vero eos et accusamus</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Nam libero tempore</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Sed ut perspiciatis</li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+        </div>
+      </div>
+      <!-- page footer  -->
+    <div id="contact" class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
+        <h1 style="margin-bottom: 80px; color: white;"><u>Join our community</u></h1>
+        <div class="row">
+            <div class="col-sm-4">
+               
+                <a href="https://discord.gg/XUFUu2wC" target="_blank" ><img  src="https://imgs.search.brave.com/8jA_xm5NPLARJOmrHJseBE-EdWIFQZTPLvSDZ-AKoEQ/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4x/bE01QlVKc2VHN1VN/ZmxVMEcxbjJBSGFF/SyZwaWQ9QXBp" alt="discord link"  style="width: 10%;  border-radius: 150px;"></a>
+                <P class="text-muted">Discord</P>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://twitter.com/DoodlesArmy" target="_blank"><img src="https://imgs.search.brave.com/cpL4n2Izj9ztzFUvfGBaUo-YIhGy_E9l9HNRLGoUSSU/rs:fit:780:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5x/dHhpeFlUTzNma19N/TjJDbXJLNVNBSGFF/ZyZwaWQ9QXBp" alt="twiiter link" style="width: 10%;  border-radius: 150px;" ></a>
+                <P class="text-muted">Twitter</P>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://imgs.search.brave.com/ycGtUPjm76lO1G5jtUz-quG-K9npWoFl4tERewN9dnQ/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/aGl5NVVYQlQ1MkpV/N3NZSlA0azhBSGFI/YSZwaWQ9QXBp" alt="website link" style="width: 8%;  border-radius: 150px;" >
+                <P class="text-muted">Website</P>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark text-light text-center border-top wow fadeIn">
+        <p class="mb-0 py-3 text-muted small">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Made with <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com">DevCRUD</a></p>
+    </div>
+    <!-- end of page footer -->
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- wow.js -->
+    <script src="assets/vendors/wow/wow.js"></script>
+    
+    <!-- google maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- FoodHut js -->
+    <script src="assets/js/foodhut.js"></script>
