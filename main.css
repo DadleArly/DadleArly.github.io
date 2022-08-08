@@ -1310,7 +1310,7 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
-			#header .content .inner {
+			#header .content .inner2 {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1324,7 +1324,7 @@ input, select, textarea {
 				overflow: hidden;
 			}
 
-				#header .content .inner > :last-child {
+				#header .content .inner2 > :last-child {
 					margin-bottom: 0;
 				}
 
@@ -1414,7 +1414,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			body.is-preload #header .content .inner {
+			body.is-preload #header .content .inner2 {
 				max-height: 0;
 				padding-top: 0;
 				padding-bottom: 0;
@@ -1450,7 +1450,7 @@ input, select, textarea {
 					font-size: 1.75rem;
 				}
 
-			#header .content .inner {
+			#header .content .inner2 {
 				padding: 2.5rem 1rem;
 			}
 
@@ -1466,7 +1466,7 @@ input, select, textarea {
 				padding: 1.5rem 0;
 			}
 
-				#header .content .inner {
+				#header .content .inner2 {
 					padding: 2.5rem 0;
 				}
 
