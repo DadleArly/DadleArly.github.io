@@ -1195,10 +1195,10 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-justify-content2: space-between;
-		-webkit-justify-content2: space-between;
-		-ms-justify-content2: space-between;
-		justify-content2: space-between;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
 		position: relative;
 		min-height: 100vh;
 		width: 100%;
@@ -1207,7 +1207,7 @@ input, select, textarea {
 	}
 
 		#wrapper:before {
-			content2: '';
+			content: '';
 			display: block;
 		}
 
@@ -1272,7 +1272,7 @@ input, select, textarea {
 		}
 
 			#header > *:before {
-				content2: '';
+				content: '';
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
@@ -1302,7 +1302,7 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
-		#header .content2 {
+		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
@@ -1310,7 +1310,7 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
-			#header .content2 .inner2 {
+			#header .content .inner {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1324,11 +1324,11 @@ input, select, textarea {
 				overflow: hidden;
 			}
 
-				#header .content2 .inner2 > :last-child {
+				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
 
-			#header .content2 p {
+			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
@@ -1377,7 +1377,7 @@ input, select, textarea {
 					}
 
 		#header nav.use-middle:after {
-			content2: '';
+			content: '';
 			display: block;
 			position: absolute;
 			top: 0;
@@ -1414,7 +1414,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			body.is-preload #header .content2 .inner2 {
+			body.is-preload #header .content .inner {
 				max-height: 0;
 				padding-top: 0;
 				padding-bottom: 0;
@@ -1423,7 +1423,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#header .content2 p br {
+			#header .content p br {
 				display: none;
 			}
 
@@ -1450,11 +1450,11 @@ input, select, textarea {
 					font-size: 1.75rem;
 				}
 
-			#header .content2 .inner2 {
+			#header .content .inner {
 				padding: 2.5rem 1rem;
 			}
 
-			#header .content2 p {
+			#header .content p {
 				line-height: 1.875;
 			}
 
@@ -1466,7 +1466,7 @@ input, select, textarea {
 				padding: 1.5rem 0;
 			}
 
-				#header .content2 .inner2 {
+				#header .content .inner {
 					padding: 2.5rem 0;
 				}
 
